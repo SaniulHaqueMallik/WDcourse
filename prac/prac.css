@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+div{
+    height: 200px;
+    width: 200px;
+}
+.first{
+    background-color: blue;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.second{
+    background-color: yellow;
+    
+   
+}
+.third{
+    background-color: red;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+   
+}
+
+h1{
+display: none;
+}
