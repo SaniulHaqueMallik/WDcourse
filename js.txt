@@ -1,0 +1,151 @@
+alert("hi") or window.alert("hi") --> alert in the window with "hi"
+
+typeof(theVariable) --> RETURNS THE TYPE OF THE DATA OR theVariable
+
+prompt("what is your name?"); --> ask the user for input.
+
+var myName = prompt("what is your name?"); --> take input and store the data in the Variable
+here, var -->keyword
+myName --> Variable name
+after equals to --> value;
+
+alert("hi my name is" + myName) --> to use Variable with a text.
+
+cmd + k --> to clear console
+
+Variable name can't contain spaces, can't start with a number.
+only char,charNum$_ valid -- > var abc123$_ --> valid
+
+the best way to write var name --> camelCase.
+
+String Concatenation--> "a" + " " + "b" --> "a b"
+
+length-->
+var name = "saniul"
+name.length -->returns length of the String
+
+ex.--> 
+var tweet= prompt("message: ")
+var len = mes.length
+alert("you have written " + len + " charecters " + (140-len) + " charecters left")
+
+SLICE-->  .slice(start,stop,step)
+
+var tweet= prompt("message: ")
+var len = tweet.slice(0,140);
+alert(len)                      --> this will slice the text and only take upto 140 charecters 
+
+OR --> alert(prompt("compose your tweet: ").slice(0,140))
+
+Changing the case -->
+var name = "saniul"
+name = name.toUpperCase() OR name.toLowerCase
+
+Arithmatic-->
++, -, /, *, %, follow BODMAS, 
+inc and dec operator--> x ++ ; x--; ++x; --x; or x += y ; x -= y ; x  /= y; x *= y; 
+
+FUNCTION -->  
+
+function funName(){
+    block of code
+}
+funName();                               ---->calling the function
+
+
+function funName(parameters){
+    var Name = parameters*2
+}
+funName(value of the parameters);        --->calling a functionwhich have parameters
+
+Math.floor(parameters)  -->to make the Variable floored div.
+
+outputs or returns ---->
+
+function funName(parameters){
+    return parameters*2
+}
+var name = funName(value of the parameters);   --->assigned with the returned value
+
+ Math.random() --> gives a random number in 0-1. 
+
+IF-ELSE --> 
+
+if(x===y){
+    //code
+} else if(){
+    //elseifCode
+} else{
+    //elsecode
+}
+
+Combining Comparators -->
+
+&& --> AND
+|| --> OR
+!  --> NOT
+
+--------------------------------------------------------------------
+
+ARRAY =>
+
+var eggs =['a', 'b', 'c', 'd', 'e']
+
+var myEgg = eggs[2]  -->means 'c'
+
+eggs.length --> the value of length of the array
+
+eggs.includes('c')   --->it will Check if the element 'c' is present there or not. if present = True otherwise, False
+it only returns boolean value
+
+push and pop in array
+
+var output = [] -->empty array
+output.push(1)   --->push it into the last
+now output =[1]
+
+output.push(2)   --->push it into the last
+now output =[1,2]
+
+same for pop.
+it deletes the last item.
+output.pop()
+now, output=[1]  -->deletes the last item.
+
+
+example--> 
+var output= []
+var a =1
+
+function fizzBuzz() {
+   if(a%3===0 && a%5===0){
+      output.push("fizzBuzz")
+   }
+   else if(a%3===0 && a%5!==0){
+      output.push("fizz")
+   }
+   else if(a%3!==0 && a%5==0){
+      output.push("Buzz")
+   }
+   else{
+      output.push(a)
+   }
+   a+=1
+   console.log(output)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
