@@ -135,10 +135,57 @@ function fizzBuzz() {
 }
 
 
+WHILE LOOP -->
+
+var i = 1;
+while(i<2){
+    console.log(i);
+    i++;
+}
+
+var count = 99
+function bottles() {
+    while (count>=0) 
+     if(count>)
+        console.log(count + " bottles of beer on the wall, " + count + " bottles of beer.")
+        count--
+        console.log("Take one down and pass it around, " +count+ " bottles of beer on the wall.")
+    }
+}
+
+FOR LOOP -->
+
+for(var i = 0 ; i<10 ; i++){
+    console.log(i)
+}
+
+FOR LOOP -> ITERATE   where   WHILE LOOP -->STATE 
+
+FIBONOCCI SERIES:
+
+function fs(n) {
+    var output = []
+    if(n === 1){
+        output=[0]
+    }
+    else if(n===2){
+        output=[0,1]
+    }
+    else{
+        output = [0,1];
+        for(var i = 2 ; i<n; i++){
+            output.push(output[output.length -2]+output[output.length -1]);
+        }
+    }
+    
+    return output;
+}
 
 
+Properties and Methods-->
 
-
+Properties = innerHTML, style, firstChild
+Methods = click(), appendChild(), setAttribute()
 
 
 
