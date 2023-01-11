@@ -189,9 +189,38 @@ Methods = click(), appendChild(), setAttribute()
 
 
 
+CALLING FUNCTION INSIDE A FUNCTION -->(HIGHER ORDER FUNCTION)
+
+function add(num1,num2){
+    return num1+num2;
+}
+function multiply(num1,num2){
+    return num1*num2;
+}
+function subs(num1,num2){
+    return num1-num2;
+}
+function div(num1,num2){
+    return num1/num2;
+}
+function calculator(num1,num2,operator){
+    return operator(num1,num2);
+}
+
+calculator(2,5,add)   -->it will add
+calculator(2,4,div)   -->it will perform div.
+
+--> here calculator is a HIGHER ORDER function and the others are CALLBACK function.
 
 
-
+# CONSTRUCTOR FUNCTION  -->the 1st letter of function name will be in capital 
+function BellBoy(name,age,exp,lang){
+    this.name = name;
+    this.age = age;
+    this.exp  = exp;
+    this.lang = lang
+}
+var bellBoy1 = new BellBoy("Timmy",21,3,["english","french"])      --->to create a new object we are using constructor function.
 
 
 
