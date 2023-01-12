@@ -1,0 +1,18 @@
+<--                                             jQuery                                   -->
+to load jQuery-->    https://developers.google.com/speed/libraries#jquery
+
+we can add CDN Link befor linking main javascript in body tag.
+
+or,
+
+we can use ready
+
+$(document).ready(function){
+    $("h1").css("color", "red")
+}
+#that means once our document is ready then it is going to call this code.
+
+How minifier works to reduces file size?
+-> search minifier in google to minify the size.
+
+
