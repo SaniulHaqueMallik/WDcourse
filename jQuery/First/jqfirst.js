@@ -40,7 +40,7 @@ $("input").keypress(function(event){                      //keypress
     console.log(event.key)
 })
 
-$(document).keypress(function(event){                      //keypress
+$('document').keypress(function(event){                      //keypress
     $("h1").html(event.key)
 })
 
