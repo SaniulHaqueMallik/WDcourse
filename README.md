@@ -4,6 +4,6 @@ work of WD course of UDEMY by ANGELA YU
 
 
 terminal-->
-crtl+A
-CTRL+E
-OPT + pointer
+ crtl+A  
+ CTRL+E  
+ option + pointer

@@ -98,6 +98,7 @@ $(".slidetoggle").on("click",function(){
 //ANIMATE  (custom css)----> to hide , show , toggle using custom css
 /* Using animate we can mention our css property inside  a curly brackets but we can only css rulesets 
 which has a numeric values */
+
 $(".animate").on("click",function(){
     $("h1").animate({opacity: 0.3})
 })
