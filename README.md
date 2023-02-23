@@ -2,7 +2,7 @@
 
 work of WD course of UDEMY by ANGELA YU
 
-# REACT -> CODESANDBOX
+# REACT -> https://codesandbox.io/
 
 # SQL -> https://sqliteonline.com/
 
