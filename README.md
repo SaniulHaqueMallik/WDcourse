@@ -20,3 +20,14 @@ crtl+A
 * sudo npm install -g nodemon -> to install nodemon. who keeps track of changes on any files while running.
 * node index.js / nodemon index.js -> to run the node program
 * npm install package   -> to install node modules.
+
+
+
+# API  (Application Programming Interface)
+* An API is a set of commands, functions, Protocols and objects that programer can use to ceate software or interact with an internal system.
+* your server ---API---request ---> Someone else's server
+* your server <--API---response <-- Someone else's server
+
+* API -->> 1. Endpoint 2. Paths 3. Parameters 4. Authentication
+* JSON -> JavaScript Object Notation
+* XML -> Extensable Markup Language
