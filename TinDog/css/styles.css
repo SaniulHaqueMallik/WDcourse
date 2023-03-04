@@ -7,9 +7,15 @@
 }
 h1{
     font-family: 'Montserrat';
+    font-weight: 20;
     font-size: 3.5rem;
     line-height: 1.5;
     color: white;
+}
+h2{
+    font-family:'Montserrat-Regular';
+    font-size: 3rem;
+    line-height: 1.5;
 }
 .container-fluid{
     padding: 3% 15%;
@@ -70,4 +76,20 @@ h1{
 }
 .ficon:hover{
     color: #ff4c68;
+}
+
+/* Testimonial section*/
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#ef8172 ;
+    color: aliceblue;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    
 }
