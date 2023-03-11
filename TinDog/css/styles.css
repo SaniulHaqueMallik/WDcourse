@@ -5,7 +5,7 @@
     background-color: #ff4c68 ;
     color: white;
 }
-h1{
+h1, #cta h3{
     font-family: 'Montserrat';
     font-weight: 20;
     font-size: 3.5rem;
@@ -50,15 +50,20 @@ h2{
 /* Title Image */
 
 .title-image{
-    width: 60%;
+    width: 17%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 /* Features */
 #features{
     text-align: center;
-    padding: 7% 15%;
+    padding: 2% 15%;
+    position: relative;
+    background-color: white;
+    z-index: 1;
 }
+
 .feature-box{
     padding: 10%;
 }
@@ -108,4 +113,26 @@ h2{
 #pricing .heeading h2{
     font-weight: bold;
     padding-top: 3%;
+}
+#cta{
+    background-color: #ff4c68 ;
+    color: white;
+    text-align: center;
+    
+}
+#cta h3{
+    text-align: center;
+    width: 60%;
+    margin: 0 20%;
+}
+
+@media (max-width: 1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 30%;
+    }
+    #title{
+        text-align: center;
+    }
 }
