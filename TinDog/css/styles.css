@@ -5,7 +5,7 @@
     background-color: #ff4c68 ;
     color: white;
 }
-h1, #cta h3{
+h1{
     font-family: 'Montserrat';
     font-weight: 20;
     font-size: 3.5rem;
@@ -58,7 +58,8 @@ h2{
 /* Features */
 #features{
     text-align: center;
-    padding: 2% 15%;
+    width: 100%;
+    padding: 2% 10%;
     position: relative;
     background-color: white;
     z-index: 1;
@@ -114,18 +115,36 @@ h2{
     font-weight: bold;
     padding-top: 3%;
 }
+
 #cta{
     background-color: #ff4c68 ;
     color: white;
     text-align: center;
-    
+    width: 98%;
+    margin-left: 1%;
 }
 #cta h3{
     text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 20;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding: 7% 0;
     width: 60%;
     margin: 0 20%;
+    position: relative;
+    top:2vw;
 }
 
+#footer{
+    padding: 7% 5% 0;
+    text-align: center;
+    color: #424040;
+    
+}
+.foot-icons i{
+    margin: 20px 10px;
+}
 @media (max-width: 1028px) {
     .title-image{
         position: static;
